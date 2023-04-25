@@ -1,0 +1,171 @@
+.about {
+    width: 100%;
+    padding: 100px 0 50px 0;
+}
+
+.about_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_inner h2 {
+    color: rgb(141, 141, 141);
+    border-bottom: 2px solid goldenrod;
+    padding-bottom: 10px;
+}
+
+.about_inner img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 50px 0 20px 0;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.about_inner p {
+    padding: 10px 250px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+    font-size: 18px;
+    color: goldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+/* =========== responsive size 998px start =============================*/
+
+
+@media (max-width: 998px) {
+    .about {
+        padding: 100px 0 50px 0;
+    }
+       
+    .about_inner h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    
+    .about_inner img {
+        width: 350px;
+        height: 350px;
+        margin: 50px 0 20px 0;
+    }
+    
+    .about_inner p {
+        padding: 10px 100px;
+        word-spacing: 1px;
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* =========== responsive size 768px start =============================*/
+
+
+@media (max-width: 768px) {
+    .about {
+        padding: 50px 0 50px 0;
+    }
+       
+    .about_inner h2 {
+        font-size: 25px;
+        padding-bottom: 8px;
+    }
+    
+    .about_inner img {
+        width: 320px;
+        height: 320px;
+        margin: 50px 0 20px 0;
+    }
+    
+    .about_inner p {
+        padding: 10px 50px;
+        word-spacing: 1px;
+        font-size: 17px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* =========== responsive size 612px start =============================*/
+
+
+@media (max-width: 612px) {
+    .about {
+        padding: 50px 0 50px 0;
+    }
+       
+    .about_inner h2 {
+        font-size: 22px;
+        padding-bottom: 6px;
+    }
+    
+    .about_inner img {
+        width: 300px;
+        height: 300px;
+        margin: 50px 0 20px 0;
+    }
+    
+    .about_inner p {
+        padding: 10px 30px;
+        word-spacing: 1px;
+        font-size: 17px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* =========== responsive size 460px start =============================*/
+
+
+@media (max-width: 460px) {
+    .about {
+        padding: 50px 0 50px 0;
+    }
+       
+    .about_inner h2 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    
+    .about_inner img {
+        width: 250px;
+        height: 250px;
+        margin: 30px 0 20px 0;
+    }
+    
+    .about_inner p {
+        padding: 10px 20px;
+        word-spacing: 1px;
+        font-size: 16px;
+    }
+}

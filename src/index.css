@@ -1,13 +1,105 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0px;
+  z-index: 20;
+  border-radius: 5px 0 0 5px;
+  overflow: hidden;
+  /* background-color: rgba(20, 19, 19, 0.6); */
+  /* border: 1px solid rgb(116, 115, 115); */
+}
+
+.icon-bar a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-size: 16px;
+}
+
+.i {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px !important;
+  transition: all 0.5s linear;
+  color: white;
+}
+
+.i:hover {
+  color: gold;
+  }
+
+  .facebook {
+    background-color: #3b5998;
+  }
+
+  .instagram {
+    background-color:  #e4405f;
+  }
+
+  .youtube {
+    background-color:  #c4302b;
+  }
+
+  .linkedin {
+    background-color:  #0072b1;
+  }
+
+
+
+
+  
+
+
+
+
+/* =========== responsive size 768px start =============================*/
+
+
+@media (max-width: 768px) {
+  
+  .icon-bar a {
+    padding: 0;
+    font-size: 15px;
+  }
+  
+  .i {
+    padding: 8px;
+    font-size: 26px !important;
+  }
+    
+}
+
+
+
+
+  
+
+
+
+
+/* =========== responsive size 450px start =============================*/
+
+
+@media (max-width: 450px) {
+  
+  .icon-bar a {
+    padding: 0;
+    font-size: 15px;
+  }
+  
+  .i {
+    padding: 10px 6px;
+    font-size: 22px !important;
+  }
+    
 }

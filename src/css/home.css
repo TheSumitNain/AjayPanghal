@@ -1,0 +1,282 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+
+
+.home_main {
+   width: 100%;
+   height: calc(100vh - 80px);
+}
+
+.home_image {
+    background-image: url("../images/27.jpg");
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.home_text {
+    /* width: 700px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 10px; */
+    padding:20px 50px;
+    border-radius: 5px;
+    background-color: rgba(77, 74, 74, .3);
+    border: 1px solid rgb(116, 115, 115);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.home_text h1 {
+    color: rgb(233, 232, 232);
+    font-size: 45px;
+    padding: 10px 0;
+}
+
+.home_text h1 span {
+    font-size: 55px;
+    font-weight: 900;
+    color: goldenrod;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.home_text p {
+    color: rgb(233, 233, 232);
+    background-color: rgba(49, 45, 45, 0.5);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px 20px;
+    margin: 10px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.home_text button {
+    color: white;
+    background-color: goldenrod;
+    font-size: 20px;
+    padding: 4px 12px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-family: 'Jaldi', sans-serif;
+    letter-spacing: 1px;
+    transition: all .5s linear;
+    cursor: pointer;
+}
+
+.home_text button:hover {
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+/* =========== responsive size 998px start =============================*/
+
+
+@media (max-width: 998px) {
+
+.home_image {
+    height: 100%;
+}
+
+.home_text {
+    padding:20px 40px;
+}
+
+.home_text h1 {
+    font-size: 42px;
+    padding: 10px 0;
+}
+
+.home_text h1 span {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.home_text p {
+    border-radius: 50px;
+    padding: 5px 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.home_text button {
+    font-size:18px;
+    padding: 4px 12px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* =========== responsive size 768px start =============================*/
+
+
+@media (max-width: 768px) {
+
+    .home_image {
+        height: 100%;
+    }
+    
+    .home_text {
+        width: 90%;
+    margin: 0 5%;
+        padding:15px 10px;
+    }
+    
+    .home_text h1 {
+        font-size: 38px;
+        padding: 10px 0;
+    }
+    
+    .home_text h1 span {
+        font-size: 45px;
+        font-weight: 900;
+    }
+    
+    .home_text p {
+        width: 90%;
+        border-radius: 10px;
+        padding: 5px 15px;
+        margin: 7px 0;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    
+    .home_text button {
+        font-size:18px;
+        padding: 4px 12px;
+        margin: 20px 0;
+        letter-spacing: 1px;
+    }
+    
+    }
+    
+
+
+
+
+
+
+
+
+/* =========== responsive size 612px start =============================*/
+
+
+@media (max-width: 612px) {
+
+    .home_image {
+        height: 100%;
+    }
+    
+    .home_text {
+        width: 90%;
+        margin: 0 5%;
+        padding:12px 10px;
+    }
+    
+    .home_text h1 {
+        font-size: 35px;
+        padding: 10px 0;
+    }
+    
+    .home_text h1 span {
+        font-size: 42px;
+        font-weight: 900;
+    }
+    
+    .home_text p {
+        width: 90%;
+        border-radius: 8px;
+        padding: 5px 10px;
+        margin: 7px 0;
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+    
+    .home_text button {
+        font-size:17px;
+        padding: 4px 10px;
+        margin: 20px 0;
+        letter-spacing: 1px;
+    }
+    
+    }
+        
+
+
+
+
+
+
+
+
+/* =========== responsive size 460px start =============================*/
+
+
+@media (max-width: 460px) {
+
+    .home_image {
+        height: 100%;
+    }
+    
+    .home_text {
+        width: 90%;
+        margin: 0 5%;
+        padding:12px 10px;
+    }
+    
+    .home_text h1 {
+        font-size: 35px;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .home_text h1 span {
+        font-size: 40px;
+        font-weight: 900;
+    }
+    
+    .home_text p {
+        width: 90%;
+        border-radius: 8px;
+        padding: 10px 10px;
+        margin: 5px 0;
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+    
+    .home_text button {
+        font-size:16px;
+        padding: 3px 8px;
+        margin: 20px 0;
+        letter-spacing: 1px;
+    }
+    
+    }
